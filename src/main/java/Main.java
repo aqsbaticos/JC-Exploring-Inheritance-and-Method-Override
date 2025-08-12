@@ -1,3 +1,4 @@
+import account.CheckingAccount;
 import animal.Dog;
 import editor.CodeEditor;
 import editor.Editor;
@@ -32,22 +33,26 @@ public class Main {
 //		myDog.makeSound();
 
 		//	Exercise 3: Method Overriding: Providing a New Implementation
-		Editor myEditor = new Editor();
-		CodeEditor myCodeEditor = new CodeEditor();
-		Editor polyEditor = new CodeEditor();
+//		Editor myEditor = new Editor();
+//		CodeEditor myCodeEditor = new CodeEditor();
+//		Editor polyEditor = new CodeEditor();
+//
+//		System.out.println("--- Regular Editor ---");
+//		myEditor.openFile();
+//
+//		System.out.println("--- Code Editor ---");
+//		myCodeEditor.openFile();
+//
+//		System.out.println("--- Polymorphic Editor ---");
+//		polyEditor.openFile();
+//
+//		GameCharacter myGameCharacter = new GameCharacter();
+//		ArmoredCharacter myArmoredCharacter = new ArmoredCharacter();
+//		myGameCharacter.takeDamage(100);
+//		myArmoredCharacter.takeDamage(100);
 
-		System.out.println("--- Regular Editor ---");
-		myEditor.openFile();
-
-		System.out.println("--- Code Editor ---");
-		myCodeEditor.openFile();
-
-		System.out.println("--- Polymorphic Editor ---");
-		polyEditor.openFile();
-
-		GameCharacter myGameCharacter = new GameCharacter();
-		ArmoredCharacter myArmoredCharacter = new ArmoredCharacter();
-		myGameCharacter.takeDamage(100);
-		myArmoredCharacter.takeDamage(100);
+		//	Exercise 4: Inheriting Variables & Access Rules
+		CheckingAccount myChecking = new CheckingAccount(100.0);
+		myChecking.deductMonthlyFee();
 	}
 }

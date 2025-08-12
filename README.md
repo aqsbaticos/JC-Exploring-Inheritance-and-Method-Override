@@ -92,6 +92,6 @@ Opening a generic file.
 ![Screenshot Proof](/ss/e4-cs3.png?raw=true "exercise-4-code-snippet-3")
 ![Screenshot Proof](/ss/e4-cs1.png?raw=true "exercise-4-code-snippet-1")
 
-**Output Fix**
+**Output (Fixed)**
 
 ![Screenshot Proof](/ss/e4-o.png?raw=true "exercise-4-output")

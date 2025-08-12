@@ -34,9 +34,8 @@ I am a Generic Vehicle Mustang
 **Prediction**
 
 ```declarative
-Before method call: 50
-Inside method: 100
-After method call: 50
+The area is: 78.53981633974483
+The area is: 24.0
 ```
 
 **Output**
@@ -53,13 +52,14 @@ After method call: 50
 
 **Prediction**
 ```declarative
-Number of messages: 2
-Hello World 
-
-Number of messages: 3
-Testing Varargs Here 
-
-Number of messages: 0
+--- Regular Editor ---
+Opening a generic file.
+--- Code Editor ---
+Applying syntax highlighting...
+Opening a generic file.
+--- Polymorphic Editor ---
+Applying syntax highlighting...
+Opening a generic file.
 ```
 
 **Output**
